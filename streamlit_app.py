@@ -65,7 +65,7 @@ LABEL_TO_IDX = {"low": 0, "medium": 1, "high": 2}
 IDX_TO_LABEL = {0: "low", 1: "medium", 2: "high"}
 
 # API Configuration
-API_URL = "https://ai-powered-smart-email-classifier-main.onrender.com/"
+API_URL = "https://ai-powered-smart-email-classifier-aek7.onrender.com/"
 ALLOW_LOCAL_CSV_FALLBACK = os.getenv("ALLOW_LOCAL_CSV_FALLBACK", "false").strip().lower() == "true"
 
 ALL_CATEGORIES = ["forum", "promotions", "social_media", "spam", "updates", "verify_code"]
